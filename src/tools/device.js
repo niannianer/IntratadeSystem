@@ -12,11 +12,7 @@ if ('ontouchstart' in window) {
     device.mobile = true;
 }
 device.ios = device.android = device.iphone = device.ipad = device.androidChrome = device.kingold = false;
-device.kingold = /kingold/i.test(ua);
-device.kingoldVersion = '0.0.0';
-if (device.kingold) {
-    device.kingoldVersion = ua.match(/([\d.]+)?$/)[0];
-}
+
 // default
 device.os = 'PC';
 device.osVersion = 'default';

@@ -4,8 +4,6 @@ import Router from 'vue-router';
 import {logout} from '../tools/operation';
 Vue.use(Router)
 
-
-
 const Index = () => import('../containers/Index');
 const Test = () => import('../containers/Test');
 const Login = () => import('../containers/Login');

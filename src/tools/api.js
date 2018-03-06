@@ -20,7 +20,7 @@ import  {logout} from './operation';
 import 'whatwg-fetch';
 import {local, session} from './store';
 import $device from './device';
-import config, {doEncrypt} from './config';
+import config from './config';
 let serverUrl = config.apiUrl;
 let query = data => {
     let str = [];
